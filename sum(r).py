@@ -1,4 +1,4 @@
-def add(n)
+def add(n):
 
     if n==1:
         return 1
@@ -7,3 +7,4 @@ def add(n)
     return n+add(n-1)
 
 print(add(5))
+
